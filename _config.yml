@@ -1,0 +1,36 @@
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: :title.html
+paginate: 5
+plugins: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://bvnagababu.github.io/battina
+author: BATTINA
+
+# edit this section with your information
+# jekyller.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /battina/
+title: Battina's Resume
+name: BV Naagabaabu
+email: nagababu.battina@gmail.com
+email_full: mailto:nagababu.battina@gmail.com
+website: github.io/battina
+website_full: https://bvnagababu.github.io/battina
+github: BVNAGABABU
+twitter: BVNaagabaabu
+tel: +91 0000 000000
+tel_full: tel:+910000000000
+google_maps: 'https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
+address:
+  street: 44 Perth Street
+  postcode: EH3 5BL
+  city: Edinburgh
+  country: United Kingdom
+google_analytics: UA-69300817-1
+
+# needed for travis-ci build
+exclude: [vendor]
