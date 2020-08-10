@@ -2,7 +2,7 @@ highlighter: rouge
 markdown: kramdown
 rdiscount:
   extensions: [smart]
-permalink: title.html
+permalink: :title.html
 paginate: 5
 plugins: [jekyll-paginate]
 port: 4000
@@ -24,10 +24,10 @@ github: BVNAGABABU
 twitter: BVNaagabaabu
 tel: +91 0000 000000
 tel_full: tel:+910000000000
-google_maps: 'https://www.google.com/maps/place/Teacher's+Colony,+HSR+Layout+5th+Sector,+Bengaluru,+Karnataka+560034'
+google_maps: 'https://www.google.com/maps/place/Teachers+Colony,+HSR+Layout+5th+Sector,+Bengaluru,+Karnataka+560034'
 address:
   street: Teachers Colony
-  postcode: 560 034
+  postcode: 560034
   city: Bengalore
   country: India
 google_analytics: UA-175062408-1
